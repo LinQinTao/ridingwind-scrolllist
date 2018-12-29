@@ -1,0 +1,21 @@
+{
+  "name": "ridingwind-scrolllist",
+  "version": "1.0.0",
+  "description": "pull-up load more drop-down refresh on mobile, AND scroll load more on PC, React Compopnent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "scroll",
+    "PC",
+    "mobile",
+    "pull up",
+    "refresh",
+    "drop down",
+    "load more"
+  ],
+  "author": "RidingWind",
+  "license": "ISC"
+}
