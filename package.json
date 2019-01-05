@@ -1,10 +1,10 @@
 {
   "name": "ridingwind-scrolllist",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha.1",
   "description": "pull-up load more drop-down refresh on mobile, AND scroll load more on PC, React Compopnent",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf lib & webpack --config webpack.prod.config.js"
   },
   "keywords": [
     "react",
@@ -17,5 +17,31 @@
     "load more"
   ],
   "author": "RidingWind",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinQinTao/ridingwind-scrolllist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LinQinTao/ridingwind-scrolllist/issues"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.4",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "postcss-loader": "^2.0.8",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
 }
