@@ -1,6 +1,6 @@
 # [ridingwind scrolllist](https://github.com/LinQinTao/ridingwind-scrolllist.git)
 
-# 当前版本 1.0.0-alpha.1
+# 当前版本 0.0.1
 
 # 简介
 1. React插件
