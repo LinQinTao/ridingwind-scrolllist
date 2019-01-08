@@ -1,6 +1,6 @@
 {
   "name": "ridingwind-scrolllist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "pull-up load more drop-down refresh on mobile, AND scroll load more on PC, React Compopnent",
   "main": "index.js",
   "scripts": {
