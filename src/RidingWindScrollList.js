@@ -266,6 +266,7 @@ export default class RidingWindScrollList extends React.PureComponent {
     return (
       <div
         className={newClassName}
+        id={id}
         ref={(node) => { this[`${id}_container`] = node; }}
       >
         <div className={styles.pullLoadBody} style={msgStyle}>
