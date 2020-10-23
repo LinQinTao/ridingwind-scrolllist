@@ -252,7 +252,7 @@ export default class RidingWindScrollList extends React.PureComponent {
 
   render() {
     const {
-      id, children, currentState, HeadDOM, hasMore,
+      id, children, currentState, HeadDOM, hasMore, FooterTipDOM
       // FooterDOM,
     } = this.props;
     const { pullDistance } = this.state;
@@ -292,6 +292,7 @@ export default class RidingWindScrollList extends React.PureComponent {
                 currentState === RSTATES.loading ? <i /> : ''
               }
             </div>
+            { FooterTipDOM || null}
             {/* )
             } */}
           </div>

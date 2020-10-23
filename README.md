@@ -1,6 +1,6 @@
 # [ridingwind scrolllist](https://github.com/LinQinTao/ridingwind-scrolllist.git)
 
-# 当前版本 0.0.3
+# 当前版本 0.0.4
 
 # 简介
 1. React插件
@@ -109,6 +109,7 @@ class Demo extends PureComponent {
           currentState={currentState}
           hasMore={hasMore}
           executeFunc={this.executeFunc}
+          FooterTipDOM={(<div />)}
         >
           {
             datas.map((item, index) => (
@@ -146,6 +147,7 @@ export default Demo;
 | hasMore          | 是否还有更多内容可以加载                | Boolean   |            isRequired           |
 | pullDownSpace       | 下拉距离是否满足要求                 | Number    |      isRequired                 |
 | actionSpaceBottom   | 距离底部多少距离触发加载更多                  | Number    |       isRequired        |
+| FooterTipDOM   | 底部提示信息                 | Dom    |       noRequired        |
 
 
 # STATS list
